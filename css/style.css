@@ -1,0 +1,114 @@
+:root {
+    --color-text: rgb(255, 255, 255);
+    --color-back: rgb(23, 23, 23);
+    --color-hover-text: rgb(128, 128, 128);
+    --color-hover-button: rgb(201, 201, 201);
+    --color-navbar: rgb(0, 0, 255);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-back);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-navbar);
+
+}
+
+.navbar .bowser {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.navbar ul {
+    display: flex;
+}
+
+
+.navbar ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+    padding: 10px;
+    
+}
+.navbar ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.navbar ul li a:hover {
+    color: var(--color-hover-text);
+}
+
+
+/*
+informacoes do criador do website
+*/
+
+main .container {
+    margin-top: 10rem;
+}
+
+main .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    color: #868686;
+}
+
+main .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    color: #868686;
+}
+
+main .button {
+    display: flex;
+    justify-content: center;
+
+}
+
+main .button a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: var(--color-navbar);
+    border: 2px solid var(--color-hover-button);
+    border-radius: 40px;
+    padding: 1rem;
+    text-align: center;
+    color: var(--color-text);
+}
+
+/*
+footer da pagina
+*/
+
+/*header, footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #868686;
+    color: #ffffff;
+    box-sizing: border-box;
+}*/
